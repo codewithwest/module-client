@@ -16,7 +16,7 @@
     "url": "https://github.com/codewithwest/module-client/issues"
   },
   "publishConfig": {
-    "@YOUR-USERNAME:registry": "https://npm.pkg.github.com"
+    "@codewithwest:registry": "https://npm.pkg.github.com"
   },
   "homepage": "https://github.com/codewithwest/module-client#readme"
 }

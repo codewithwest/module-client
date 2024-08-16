@@ -1,6 +1,6 @@
 {
   "name": "@codewithwest/module-client",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Hande Client Api transactions",
   "main": "index.js",
   "scripts": {
@@ -24,5 +24,6 @@
     "@codewithwest/module-knight-trainer": "*",
     "express": "4.19.2",
     "mongoose": "8.4.4"
-  }
+  },
+  "type": "module"
 }

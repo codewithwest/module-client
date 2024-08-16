@@ -1,7 +1,8 @@
 // import generate_token from "../middleware/generate_auth_token.js";
 import generate_token from "@codewithwest/module-knight-trainer/middleware/generate_auth_token.js";
-import DbConnection from "@codewithwest/module-db-connections/providers/connection.js";
+// import DbConnection from "@codewithwest/module-db-connections/providers/connection.js";
 import Client from "../schemas/client.js";
+import { DbConnection } from "@codewithwest/module-db-connections";
 
 class ClientQueries extends DbConnection {
     /**

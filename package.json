@@ -18,5 +18,11 @@
   "publishConfig": {
     "@codewithwest:registry": "https://npm.pkg.github.com"
   },
-  "homepage": "https://github.com/codewithwest/module-client#readme"
+  "homepage": "https://github.com/codewithwest/module-client#readme",
+  "dependencies": {
+    "@codewithwest/module-db-connections": "*",
+    "@codewithwest/module-knight-trainer": "*",
+    "express": "4.19.2",
+    "mongoose": "8.4.4"
+  }
 }

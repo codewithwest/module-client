@@ -2,8 +2,8 @@ import config from "@codewithwest/module-knight-trainer/providers/constants.js"
 import ClientQueries from "../queries/client_queries.js"
 import express from 'express'
 
-
 var client_routes = express.Router()
+
 const connection = new ClientQueries(config.db_url, config.db_name, "clients")
 client_routes.post('/new-client', async (req, res) => {
     try {
@@ -16,7 +16,7 @@ client_routes.post('/new-client', async (req, res) => {
 
         res.status(400).json({
             error: "Error request missing required data 😂",
-            message: "invalid Access request👀, please contact server owner to request accesss😉",
+            message: "Invalid Access request👀, please contact server owner to request accesss😉",
             contact: "✉westdynamics.tech@gmail.coms"
         })
     } catch (error) {

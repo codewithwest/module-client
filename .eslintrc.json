@@ -1,0 +1,5 @@
+{
+  "extends": [
+    "plugin:prettier/recommended" // must be last element in "extends"
+  ]
+}
